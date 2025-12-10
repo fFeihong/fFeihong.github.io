@@ -1,0 +1,134 @@
+/* Main Font */
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('../assests/fonts/VarelaRound-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CN Char FONT */
+@font-face {
+    font-family: 'MaShanZheng';
+    src: url('../assests/fonts/MaShanZheng-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #f0f0f0;
+}
+
+
+/* Navigation */
+nav {
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'VarelaRound', sans-serif;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* Hero Section */
+.hero { 
+    height: 80vh;
+    display: flex;
+    flex-direction: column;    /* Arrange them vertically: h1 -> socials -> button */
+    justify-content: center;
+    align-items: center;       /* Center horizontally*/
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hero Title */
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+    /* font-family: 'MaShanZheng', sans-serif; */
+}
+
+/* Hero subtitle */
+.hero p {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #ccc;
+}
+
+/* Social Buttons - แถวแนวนอน */
+.socials {
+    display: flex;             /* เรียงไอคอนเป็นแถว */
+    justify-content: center;
+    align-items: center;
+    gap: 15px;                 /* ช่องว่างระหว่างไอคอน */
+    margin-top: 20px;          /* ระยะจาก h1 / p */
+    transition: transform 0.2s;
+}
+
+.socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.socials a img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+
+/* Hero Button */
+.hero .btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.hero .btn:hover {
+    opacity: 0.8;
+}
+
+.socials img:hover {
+    transform: scale(1.2); /* ขยายตอน hover */
+}
+
+/* Button */
+.btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
