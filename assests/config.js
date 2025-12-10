@@ -12,6 +12,6 @@ const siteConfig = {
         twitter: "https://x.com/",
         instagram: "https://www.instagram.com/",
         facebook: "https://facebook.com/",
-        artsite1: "https://this_site_is_test_text",
+        artsite1: "https://www.pixiv.net/en/users/",
     }
 };
