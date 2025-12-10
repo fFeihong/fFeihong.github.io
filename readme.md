@@ -1,3 +1,7 @@
-Disclamier!
-this site even if I know about programing but I'm not suit for web programing. (skill issue) So I use chat gpt to help me create it and adjusting in with my low-knowledge web language... If it have any bug (sure IT will have) just try to ignore it.
-purpose of this site is for my info like personal info about artist(myself)
+# Disclamier!
+
+About this site (repository).
+Even though I have some programming knowledge, I’m not really suited for web development (Due to my skills issues). I used ChatGPT to help me create this site and make adjustments with my limited skills.
+
+The purpose of this site(repo) is to share some necessary personal information about myself as an artist.
+
