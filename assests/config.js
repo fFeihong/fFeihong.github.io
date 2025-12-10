@@ -1,6 +1,6 @@
 // config.js
 const siteConfig = {
-    siteName: "绯红",
+    siteName: "NAME",
     pageNav0: "HOME",
     pageNav1: "ABOUT",
     pageNav2: "COMMISSIONS",
